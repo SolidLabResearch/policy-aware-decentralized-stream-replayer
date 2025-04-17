@@ -1,0 +1,12 @@
+{
+    "locations": [
+        "http://n063-02b.wall2.ilabt.iminds.be:3000/alice/acc-x/",
+        "http://n063-02b.wall2.ilabt.iminds.be:3000/alice/acc-y/",
+        "http://n063-02b.wall2.ilabt.iminds.be:3000/alice/acc-z/"
+    ],
+    "frequency_event": 4,
+    "frequency_buffer": 4,
+    "file_location": "/home/kush/Code/dahcc-benchmark-dataset/accelerometer-80sec/4Hz.nt",
+    "is_ldes": false,
+    "tree_path": "https://saref.etsi.org/core/hasTimestamp"
+}
