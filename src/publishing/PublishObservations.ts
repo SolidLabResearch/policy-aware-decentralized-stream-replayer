@@ -179,7 +179,7 @@ export class PublishObservations {
                                 let queue_object = {
                                     container: container,
                                     data: store_observation_string,
-                                    headers: headers 
+                                    headers: headers
                                 };
                                 this.queue.push(queue_object);
                                 console.log(`Added to queue: ${container} and queue length is ${this.queue.length}`);
@@ -397,8 +397,11 @@ export class PublishObservations {
     }
 
     public async authorizeFetch(containers_to_publish: string[]) {
-        for (const container of containers_to_publish) {
-            await this.uma_fetcher.preAuthorize(container);
-        }
+        await Promise.all(
+            containers_to_publish.map(container =>
+                this.uma_fetcher.preAuthorize(container)
+            )
+        );
     }
+
 }
