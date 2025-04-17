@@ -1,4 +1,4 @@
-# Policy Decentralized Stream Replayer
+# Policy Aware Decentralized Stream Replayer
 
 A simpler sensor data replayer to the inbox of an LDES in LDP or any LDP container which works with the UMA flow of the Solid Pod.
 
