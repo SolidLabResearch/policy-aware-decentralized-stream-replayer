@@ -1,6 +1,6 @@
-# KISS Decentralized Stream Replayer
+# Policy Decentralized Stream Replayer
 
-A simpler sensor data replayer to the inbox of an LDES in LDP or any LDP container.
+A simpler sensor data replayer to the inbox of an LDES in LDP or any LDP container which works with the UMA flow of the Solid Pod.
 
 ## Usage
 
